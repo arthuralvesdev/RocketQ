@@ -16,16 +16,18 @@ header {
 #bg {
     grid-area: left;
     background: url('/rocketq/assets/Ilustracao.svg') no-repeat top/contain;
+    background-position: -2rem;
 }
 
 main{
     grid-area: right;
     display: flex;
     align-items: center;
+    margin-top: -12rem;
 }
 
 main .container {
-    width: min(36.3rem 100%);
+    width: min(36.3rem, 100%);
 }
 
 main h2 {
@@ -41,3 +43,10 @@ input {
     border: .2rem solid var(--gray-blue);
     padding: 0 1.6rem;
 }
+
+input, button, .button{
+    border: .2rem solid var(--gray-blue);
+    padding: 0 1,6rem;
+}
+
+
