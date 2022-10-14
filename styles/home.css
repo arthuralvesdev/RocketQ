@@ -98,6 +98,7 @@ input, button, .button{
 
 .ball.bottom{
     clip-path: circle();
-    
+    bottom: -20rem;
+    right: 6rem;
 
 }
