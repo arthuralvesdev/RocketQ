@@ -15,7 +15,7 @@ header {
 
 #bg {
     grid-area: left;
-    background: url('/rocketq/assets/Ilustracao.svg') no-repeat top/contain;
+    background: url('/assets/Ilustracao.svg') no-repeat top/contain;
     background-position: -2rem;
 }
 
@@ -23,7 +23,7 @@ main{
     grid-area: right;
     display: flex;
     align-items: center;
-    margin-top: -12rem;
+    margin-top: -8rem;
 }
 
 main .container {
@@ -49,4 +49,55 @@ input, button, .button{
     padding: 0 1,6rem;
 }
 
+/* Separators */
 
+.separator{
+    display: flex;
+    align-items: center;
+    margin: 4rem 0;
+
+}
+
+.separator div:nth-child(2){
+    color: var(--gray-blue);
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    padding: 0 1.35rem;
+}
+
+.separator div:nth-child(1),
+.separator div:nth-child(3){
+    background: var(--gray-blue);
+    width: 100%;
+    height: 1px;
+    
+}
+
+/* Balls */
+
+.ball{
+    width: 27.2rem;
+    height: 27.3rem;
+    background: var(--blue);
+    opacity: 0.1;
+
+    position: fixed;
+}
+
+.ball.top{
+    background: var(--blue);
+
+    width: 63.3rem;
+    top: -46rem;
+    right: -35rem;
+    height: 63.3rem;
+    clip-path: circle();
+
+
+}
+
+.ball.bottom{
+    clip-path: circle();
+    
+
+}
