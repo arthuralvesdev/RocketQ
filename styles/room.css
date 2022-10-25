@@ -1,5 +1,8 @@
 /* --- HEADER --- */
 
+.content{
+    max-width: 90%;
+}
 
 #room header{
     width: 100%;

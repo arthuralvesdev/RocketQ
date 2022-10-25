@@ -47,6 +47,7 @@ input {
 input, button, .button{
     border: .2rem solid var(--gray-blue);
     padding: 0 1,6rem;
+    width: 100%;
 }
 
 /* Separators */
