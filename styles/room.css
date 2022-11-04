@@ -49,6 +49,7 @@
     border: .2rem solid var(--gray-blue);
     padding: 1.6rem;
     border-radius: 0 .8rem .8rem .8rem;
+    margin-bottom: 1.6rem;
 }
 
 #question-form textarea{
@@ -82,6 +83,7 @@
 }
 
 #question-form form footer button{
+    height: auto;
     line-height: 2.4rem;
     padding: 0.8rem 2.4rem;
 }
